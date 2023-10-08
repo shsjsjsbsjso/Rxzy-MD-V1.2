@@ -2840,7 +2840,7 @@ ${prefix}remini${mono}`
                   if (isSimi && body != undefined) {
                      // res = await fetchJson(`https://api.lolhuman.xyz/api/simi?apikey=${lol}&text=${body}&badword=true`)
                      res = await fetchJson(`https://api.simsimi.net/v2/?text=${body}&lc=id`)
-                     newReplyres.success)
+                     newReply(res.success)
                   }
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return newReply(mess.owner)
