@@ -1,7 +1,6 @@
 /*
    Created By ArxzyDev
    My Contact wa.me/6289513081052
-   Rxzy-MD V1.1.0
 */
 
 const {
