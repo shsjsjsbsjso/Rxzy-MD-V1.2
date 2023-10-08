@@ -60,9 +60,119 @@
 
 ## ```Be Friends With Me```
 <img src="https://github.com/anotherwebguy/anotherwebguy/blob/main/Handshake.gif" height="32px">
-<a href='https://wa.me/6289513081052' target='_blank'>
+<a href='https://wa.me/6289513081052'>
     <img align="left" width="26px" src="https://seeklogo.com/images/W/whatsapp-icon-logo-8CA4FB831E-seeklogo.com.png" />
-</a>
-<a href='https://instagram.com/adriandev_' target='_blank'>
-    <img align="left" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"'/>
-</a>
+</a> &nbsp;&nbsp;
+<a href='https://instagram.com/adriandev_'>
+    <img align="left" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"/>
+</a> &nbsp;&nbsp;
+<a href='https://www.youtube.com/channel/UCXRzxY2zfXv7OHmdMYN90IA'>
+    <img align="left" width="26px" src="https://www.freepnglogos.com/uploads/youtube-vector-logo-png-9.png"/>
+</a> &nbsp;&nbsp;
+
+---------
+
+## ```Whatsapp``` 
+<a href="https://wa.me/6289513081052">
+  <img align="left" width="26px" src="https://seeklogo.com/images/W/whatsapp-icon-logo-8CA4FB831E-seeklogo.com.png"/>
+  [![BOT WHATSAPP](https://img.shields.io/badge/Group%20All%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LfBvDxQujrLHihSRI6TCIZ) 
+---------
+
+#### a little about this bot
+- [x] **Fast Respon** 
+- [x] **Simple** 
+- [x] **Multi Device**
+- [x] **Support All Run**
+---------
+#### Some of the features include
+- [x] Downloader 
+- [x] Sticker 
+- [x] Game 
+- [x] Premium 
+- [x] Tools 
+- [x] Group
+- [x] Information
+---------
+
+## `SETTING`
+
+```bash
+  /*
+   Created By ArxzyDev
+   My Contact wa.me/6289513081052
+   Rxzy-MD V1.1.0
+*/
+
+const fs = require('fs')
+const chalk = require('chalk')
+
+/* ~~~~~~~~~ WEB API ~~~~~~~~~ */
+global.lol = '' // https://api.lolhuman.xyz
+global.xzn = '' // https://xnz.wtf
+/* ~~~~~~~~~ SETTINGS OWNER ~~~~~~~~~ */
+global.numberowner = '6289513081052' // Owner Utama
+global.owner = ['6289513081052', '6283838530788'] // Owner Lainnya
+global.namaowner = 'Arxzy お-ぎ' // Nama Owner
+global.premium = ["6289513081052"] // Premium User
+global.nobot = '6289513081052'
+/* ~~~~~~~~~ SETTINGS BOT ~~~~~~~~~ */
+global.namabot = 'Arxzy-MD' // NickBot
+global.typemenu = 'v2' // 'v1' > 'v2' > 'v3' > 'v4'
+global.typereply = 'v1'
+global.autoread = false // ReadChat
+global.autobio = false // AutoBio
+global.autoblok212 = true // AutoBlock Nomer +212
+global.onlyindo = false  // AutoBlock Selain Nomer Indo
+global.packname = 'Created By' // Watermark Sticker
+global.author = 'Arxzy ダ' // Watermark Sticker
+/* ~~~~~~~~~ MESSAGES ~~~~~~~~~ */
+global.mess = {
+    done: 'Done ✅',
+    prem: 'Feature Only For User _*PREMIUM*_',
+    admin: 'Feature Only for _*Admin Group*_',
+    botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin Group !',
+    owner: 'Feature Only for _*owner*_',
+    group: 'Feature Only for _*Group Chat*_',
+    private: 'Feature Only for _*Private Chat*_',
+    wait: 'Wait a Moment, for Process',    
+    error: '_*Sorry Features Error*_',
+}
+/* ~~~~~~~~~ THUMBNAIL ~~~~~~~~~ */
+global.thumb = fs.readFileSync('./media/quoted.jpg')
+global.menu = fs.readFileSync('./media/menu.jpg')
+/* ~~~~~~~~~ EDITS LINK ~~~~~~~~~ */
+global.link = 'https://chat.whatsapp.com/LfBvDxQujrLHihSRI6TCIZ'
+/* ~~~~~~~~~ END SYSTEM ~~~~~~~~~ */
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+    fs.unwatchFile(file)
+    console.log(chalk.redBright(`Update'${__filename}'`))
+    delete require.cache[file]
+    require(file)
+})
+```
+---------
+## TERMUX USER
+```bash
+$ pkg upgrade && pkg update
+$ pkg install git -y
+$ pkg install nodejs -y
+$ pkg install ffmpeg -y
+$ pkg install imagemagick -y
+$ git clone https://github.com/AdrianTzy/Rxzy-MD-V1.2
+$ cd Rxzy-MD-V1.2
+$ npm i 
+```
+
+#### For android 10 and above don't use npm, use yarn install
+```bash
+$ pkg install yarn -y
+$ yarn install
+```
+
+## Command Start Script
+```bash
+  For Use Pairing Code $ npm run code
+  For start script $ npm start
+  For Delete Session $ rm -rf session
+```
