@@ -60,6 +60,9 @@
 
 ## ```Be Friends With Me```
 <img src="https://github.com/anotherwebguy/anotherwebguy/blob/main/Handshake.gif" height="32px">
-<a href='wa.me/6289513081052'>
+<a href='https://wa.me/6289513081052'>
     <img align="left" width="26px" src="https://seeklogo.com/images/W/whatsapp-icon-logo-8CA4FB831E-seeklogo.com.png" />
+</a>
+<a href='https://instagram.com/@adriandev_'>
+    <img align="left" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" />
 </a>
