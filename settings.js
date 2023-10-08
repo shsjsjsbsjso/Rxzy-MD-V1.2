@@ -1,7 +1,6 @@
 /*
    Created By ArxzyDev
    My Contact wa.me/6289513081052
-   Rxzy-MD V1.1.0
 */
 
 const fs = require('fs')
@@ -19,7 +18,7 @@ global.nobot = '6289513081052'
 /* ~~~~~~~~~ SETTINGS BOT ~~~~~~~~~ */
 global.namabot = 'Arxzy-MD' // NickBot
 global.typemenu = 'v2' // 'v1' > 'v2' > 'v3' > 'v4'
-global.typereply = 'v1'
+global.typereply = 'v1' // 'v1' > 'v2'
 global.autoread = false // ReadChat
 global.autobio = false // AutoBio
 global.autoblok212 = true // AutoBlock Nomer +212
