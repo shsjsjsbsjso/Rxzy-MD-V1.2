@@ -2672,6 +2672,19 @@ ${prefix}unblock
 ${prefix}backup
 ${prefix}getcase
 
+ダ Convert Sound
+${prefix}bass
+${prefix}blown
+${prefix}deep
+${prefix}arrape
+${prefix}fast
+${prefix}fat
+${prefix}nightcore
+${prefix}reverse
+${prefix}robot
+${prefix}slow
+${prefix}smooth
+${prefix}tupai
 
 ダ Premiun Menu
 ${prefix}reminiv2
@@ -2826,8 +2839,8 @@ ${prefix}remini${mono}`
             default:
                   if (isSimi && body != undefined) {
                      // res = await fetchJson(`https://api.lolhuman.xyz/api/simi?apikey=${lol}&text=${body}&badword=true`)
-                     // res = await fetchJson(`https://api.simsimi.net/v2/?text=${body}&lc=id`)
-                     // m.reply(res.success)
+                     res = await fetchJson(`https://api.simsimi.net/v2/?text=${body}&lc=id`)
+                     newReplyres.success)
                   }
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return newReply(mess.owner)
